@@ -1,0 +1,4 @@
+kubectl create configmap app-config \
+  --from-literal=APP_NAME=NodeApp \
+  --from-literal=APP_ENV=dev \
+  -n dev
